@@ -336,7 +336,7 @@
       this.content = content;
       this.options = options;
       this.options || (this.options = {});
-      this.type = this.options.type || 'popover';
+      this.type = this.options.type || 'modal';
       this.expose = this.options.expose;
       this.exposePadding = this.options.exposePadding;
       this.anchor = this.options.anchor;

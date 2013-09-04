@@ -1,3 +1,3 @@
 all:
-	coffee -c js/tour.coffee
-	uglifyjs -o js/tour-min.js js/tour.js
+	coffee -c js/bootstrap-tour.coffee
+	uglifyjs -o js/bootstrap-tour-min.js js/bootstrap-tour.js

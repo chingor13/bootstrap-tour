@@ -206,7 +206,7 @@ class window.TourGroup
 class window.TourStep
   constructor: (@id, @title, @content, @options) ->
     @options or= {}
-    @type = @options.type || 'popover'
+    @type = @options.type || 'modal'
     @expose = @options.expose
     @exposePadding = @options.exposePadding
     @anchor = @options.anchor
