@@ -262,9 +262,9 @@
 
     Tour.prototype.buttons = function(step) {
       if (this.prevStep()) {
-        $('*[data-tour=prev').show();
+        $('*[data-tour=prev]').show();
       } else {
-        $('*[data-tour=prev').hide();
+        $('*[data-tour=prev]').hide();
       }
       if (this.nextStep()) {
         $('*[data-tour=next]').show();

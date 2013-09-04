@@ -164,9 +164,9 @@ class window.Tour
 
   buttons: (step) ->
     if @prevStep()
-      $('*[data-tour=prev').show()
+      $('*[data-tour=prev]').show()
     else
-      $('*[data-tour=prev').hide()
+      $('*[data-tour=prev]').hide()
 
     if @nextStep()
       $('*[data-tour=next]').show()
